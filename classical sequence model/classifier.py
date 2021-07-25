@@ -110,9 +110,9 @@ def lineToTensor(line):
     return tensor
 
 # 调用:
-# line = "Bai"
-# line_tensor = lineToTensor(line)
-# print("line_tensot:", line_tensor)
+line = "Bai"
+line_tensor = lineToTensor(line)
+print("line_tensot:", line_tensor)
 
 # 第三步: 构建RNN模型
 # 3.1 构建传统的RNN模型:
